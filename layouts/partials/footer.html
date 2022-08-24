@@ -10,6 +10,9 @@
               {{ with .Site.Params.social.instagram }}
               <li><a href="https://instagram.com/{{ . }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
               {{ end }}
+              {{ with .Site.Params.social.linkedin }}
+              <li><a href="https://linkedin.com/company/{{ . }}" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+              {{ end }}
               {{ with .Site.Params.social.dribble }}
               <li><a href="https://dribble.com/{{ . }}" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
               {{ end }}

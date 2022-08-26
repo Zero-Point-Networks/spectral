@@ -7,6 +7,9 @@ other = "Learn More"
 [name]
 other = "Name"
 
+[company]
+other = "Company"
+
 [email]
 other = "Email"
 

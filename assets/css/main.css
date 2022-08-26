@@ -1889,6 +1889,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -1909,6 +1910,7 @@ input, select, textarea {
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="tel"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -1917,6 +1919,7 @@ input, select, textarea {
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
 			box-shadow: 0 0 0 2px #21b2a6;
@@ -1942,6 +1945,7 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		height: 2.75em;
 	}
@@ -2899,6 +2903,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="text"],
 			.wrapper.style1 input[type="password"],
 			.wrapper.style1 input[type="email"],
+			.wrapper.style1 input[type="tel"],
 			.wrapper.style1 select,
 			.wrapper.style1 textarea {
 				background-color: rgba(255, 255, 255, 0.075);
@@ -3062,6 +3067,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="text"],
 			.wrapper.style3 input[type="password"],
 			.wrapper.style3 input[type="email"],
+			.wrapper.style3 input[type="tel"],
 			.wrapper.style3 select,
 			.wrapper.style3 textarea {
 				background-color: rgba(255, 255, 255, 0.075);
@@ -3225,6 +3231,7 @@ input, select, textarea {
 			.wrapper.style5 input[type="text"],
 			.wrapper.style5 input[type="password"],
 			.wrapper.style5 input[type="email"],
+			.wrapper.style5 input[type="tel"],
 			.wrapper.style5 select,
 			.wrapper.style5 textarea {
 				background-color: rgba(0, 0, 0, 0.0375);

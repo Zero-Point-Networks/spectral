@@ -2647,7 +2647,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #3799D8;
+				color: #2c4c7c;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -3953,6 +3953,15 @@ input, select, textarea {
 				#footer .icons a:hover {
 					color: #fff;
 				}
+
+		#footer .address {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 0.8em;
+			letter-spacing: 0.225em;
+			list-style: none;
+			padding: 0;
+			text-transform: uppercase;
+		}
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);

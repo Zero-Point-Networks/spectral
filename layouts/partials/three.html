@@ -13,7 +13,7 @@
       {{ range .feature }}
       <li class="icon {{ .icon }}">
         <h3>{{ .title | safeHTML }}</h3>
-        <p>{{ .body | safeHTML }}</p>
+        {{ .body | safeHTML }}
 			</li>
       {{ end }}
 		</ul>

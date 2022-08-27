@@ -1922,7 +1922,7 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #50658c;
 		}
 
 	select {
@@ -2015,7 +2015,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #50658c;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2915,7 +2915,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #50658c;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2931,7 +2931,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #50658c;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3397,7 +3397,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #50658c;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;

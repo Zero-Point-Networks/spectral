@@ -2835,6 +2835,12 @@ input, select, textarea {
 			.spotlight .content ul {
 				list-style-type: none;
 			}
+		@media screen and (max-width: 736px) {
+
+			.spotlight .image {
+				display: none;
+			};
+		}
 		}
 
 		}

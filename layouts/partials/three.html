@@ -5,8 +5,12 @@
 <section id="three" class="wrapper style3 special">
 	<div class="inner">
 		<header class="major">
+      <h1>{{ .portrait | safeHTML}}</h1>
       <h2>{{ .title | safeHTML }}</h2>
-      <p>{{ .subtitle | safeHTML }}</p>
+      <ul class="referee">
+         <li id="refereeName">{{ .refereeName | safeHTML }}</li>
+         <li id="refereeTitle">{{ .refereeTitle | safeHTML }}</li>
+      </ul>
       {{ partial "body_text.html" (dict "context" . "md" $md) }}
 		</header>
 		<ul class="features">

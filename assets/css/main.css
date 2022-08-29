@@ -1853,7 +1853,12 @@ input, select, textarea {
 
 		header.major p {
 			color: #fff;
+			font-style: italic;
 			top: 0;
+		}
+
+		ul.referee li {
+			list-style-type: none;
 		}
 
 		@media screen and (max-width: 736px) {

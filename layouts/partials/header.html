@@ -10,6 +10,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="referrer" content="origin">
+	{{ with .Site.Params.icon }}<link rel="shortcut icon" type="image/png" href="images/{{ . | safeHTML }}"><link rel="shortcut icon" sizes="192x192" href="images/{{ . | safeHTML }}"><link rel="apple-touch-icon" href="images/{{ . | safeHTML }}">{{ end }}
 
     {{ with .Site.Params.description }}<meta name="description" content="{{ . | plainify }}">{{ end }}
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}

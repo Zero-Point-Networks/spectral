@@ -2730,7 +2730,10 @@ input, select, textarea {
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				max-width: 100%;
+				margin-left: 5vw;
+				margin-right: 5vw;
+				max-height: 300px;
 			}
 
 		.spotlight .content {
@@ -2830,12 +2833,12 @@ input, select, textarea {
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
 			}
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			.spotlight .content ul {
 				list-style-type: none;
 			}
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			.spotlight .image {
 				display: none;

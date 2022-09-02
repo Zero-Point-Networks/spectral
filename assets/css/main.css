@@ -2731,9 +2731,8 @@ input, select, textarea {
 			.spotlight .image img {
 				border-radius: 0;
 				max-width: 100%;
-				margin-left: 5vw;
-				margin-right: 5vw;
 				max-height: 300px;
+				float: right;
 			}
 
 		.spotlight .content {
@@ -2751,6 +2750,9 @@ input, select, textarea {
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
 			flex-direction: row-reverse;
+		}
+		.spotlight:nth-child(2n) img {
+			float: left;
 		}
 
 		.spotlight:nth-child(1) {
@@ -2816,7 +2818,7 @@ input, select, textarea {
 				}
 
 				.spotlight .image {
-					width: 100%;
+					display: none;
 				}
 
 				.spotlight .content {
@@ -2826,6 +2828,10 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				.spotlight .content ul{
+					list-style-type: none;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2833,21 +2839,7 @@ input, select, textarea {
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
 			}
-		@media screen and (max-width: 980px) {
-
-			.spotlight .content ul {
-				list-style-type: none;
-			}
-		@media screen and (max-width: 980px) {
-
-			.spotlight .image {
-				display: none;
-			};
 		}
-		}
-
-		}
-
 /* Wrapper */
 
 	.wrapper {

@@ -3375,17 +3375,21 @@ input, select, textarea {
 
 		}
 
-dt {
-	float: left;
-	clear: left;
-	text-align: right;
-	width: 100px;
-}
-
-dd {
-	margin: 0 0 0 110px;
-	padding: 0 0 0.5em 1em;
-}
+		dl {
+			display: grid;
+			grid-template-columns: max-content auto;
+			column-gap: 1em;
+		  }
+		  
+		  dt {
+			grid-column-start: 1;
+			text-align: right;
+		  }
+		  
+		  dd {
+			grid-column-start: 2;
+			text-align: justify;
+		  }
 
 /* Page Wrapper + Menu */
 

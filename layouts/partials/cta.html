@@ -10,7 +10,7 @@
 		</header>
 		<ul class="actions stacked">
       {{ range .link }}
-      <li><a target ="_blank" href="{{ .href }}" class="button fit {{ if .special }}primary{{ end }}">{{ .text }}</a></li>
+      <li><a href="{{ .href }}" class="button fit {{ if .special }}primary{{ end }}">{{ .text }}</a></li>
       {{ end }}
 		</ul>
 	</div>

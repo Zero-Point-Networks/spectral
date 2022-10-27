@@ -3080,6 +3080,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="password"],
 			.wrapper.style3 input[type="email"],
 			.wrapper.style3 input[type="tel"],
+			.wrapper.style3 input[type="number"],
 			.wrapper.style3 select,
 			.wrapper.style3 textarea {
 				background-color: rgba(255, 255, 255, 0.075);
@@ -3826,7 +3827,7 @@ input, select, textarea {
 	}
 
 	body.is-preload #banner:after {
-		opacity: 0;
+		opacity: 1;
 	}
 
 /* CTA */
@@ -4084,4 +4085,31 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+
+	.hidebox {
+		column-gap: 1em;
+	}
+
+	div#lookup {
+		display: none;
+	}
+
+	div#coordinates {
+		display: none;
+	}
+
+	div#what3words {
+		display: none;
+	}
+	div#manualAddress {
+		display: none;
+	}
+
+	input .hidebox {
+		position: relative;
+	}
+	label .hidebox {
+		display: block;
 	}
